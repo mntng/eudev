@@ -2,7 +2,7 @@
 
 set -e
 
-XSLTPROC="/usr/bin/xsltproc"
+XSLTPROC="/home/ng/anaconda3/pkgs/libxslt-1.1.29-0/bin/xsltproc"
 
 XSLTPROC_FLAGS="--stringparam man.output.quietly 1 \
 --stringparam funcsynopsis.style ansi \
